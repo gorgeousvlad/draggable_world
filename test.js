@@ -1,3 +1,4 @@
+//проверка возможностей рафаэля
 var paper = Raphael("paper",1024,800);
 
 // //создаем объекты
@@ -5,10 +6,9 @@ var ellipse = paper.ellipse(300,200,150,100).attr({"fill":"orange"});
 var circle = paper.circle(100,300,50).attr({"fill":"green","stroke-dasharray":"."});
 var rect = paper.rect(500,100,100,100).attr({"fill":"blue"});
 var path = paper.path("m10,10l30,40l150,80z").attr({fill: "red", "stroke-width": 2});
-var image = paper.image("dog.svg",399,300,254,228);
 
 var objs = []
-objs.push(ellipse,circle,rect,path,image);
+objs.push(ellipse,circle,rect,path);
 
 //функции для драга 
 
