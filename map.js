@@ -32,7 +32,7 @@ for (i = 0; i<pathes.length;i++){
 		var cur = pathes[i]
 		if (cur !== undefined){
 			cur.mouseover (function(env){
-				cur.attr({"opacity":1,"cursor":"hand",fill:"purple"});
+				cur.attr({"opacity":1,"cursor":"hand",fill:"orange"});
 			});
 			cur.mouseout(function(env){
 				cur.attr({"opacity":1,"cursor":"default",fill:"black"});
